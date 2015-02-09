@@ -40,7 +40,7 @@ public class Plugboard {
 		}
 		else return 0;
 	}
-	public int getOutput(int input)
+	public int encode(int input)
 	{
 		return board[input];
 		

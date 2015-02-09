@@ -80,7 +80,7 @@ public class Rotor {
 	}
 	
 	
-	private int[] firstInput(int[] setting)
+	public int[] encode(int[] setting)
 	{
 		int[] output=new int[2];
 		output[1]=0;
@@ -99,7 +99,7 @@ public class Rotor {
 		
 		return output;
 	}
-
+/*
 	private int secondInput(int setting)
 	{
 		Node temp=rotor;
@@ -109,7 +109,7 @@ public class Rotor {
 		output=temp.identity;
 		return output;
 	}
-	
+*/	
 	private void reset()
 	{
 		while(rotor.identity!=0)
