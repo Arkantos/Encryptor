@@ -39,7 +39,7 @@ public class Enigma {
 		{
 			int character=(int)(message.charAt(i))-65;
 			character=plugboard.encode(character);
-			int[] inOut=new int[2];
+			int[] inOut=new int[3];
 			inOut[0]=character;
 			inOut[1]=1;
 			for(int j=0; j<rotors.length; j++)
